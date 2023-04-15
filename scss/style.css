@@ -288,6 +288,12 @@ section {
   left: 50%;
   z-index: -90;
 }
+.section-headline h3 {
+  color: rgba(255, 255, 255, 0.9);
+}
+.section-headline p {
+  margin: 1em 0;
+}
 
 button {
   padding: 1em 3em;
@@ -453,6 +459,9 @@ body main .service-list .section-inner .service-flex-container .service-content-
   width: 8em;
   max-width: 50%;
 }
+body main .service-list .section-inner .service-flex-container .service-content-box h4 {
+  margin: 1em 0;
+}
 body main .plan-list {
   background-color: #f0f0f0;
 }
@@ -460,6 +469,11 @@ body main .plan-list .section-inner .plan-flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+body main .plan-list .section-inner .plan-flex-container .plan-content-box {
+  margin-bottom: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 body main .plan-list .section-inner .plan-flex-container .plan-content-box img {
   width: 100%;
@@ -470,14 +484,14 @@ body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan
 body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan-content-box-inner h4 {
   display: block;
   width: 100%;
-  border-radius: 2px solid rgb(102, 153, 255);
+  border-bottom: 2px solid rgb(102, 153, 255);
   text-align: center;
 }
 body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan-content-box-inner p {
   display: block;
   width: 100%;
   margin: 1em 0;
-  text-align: center;
+  text-align: left;
 }
 body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan-content-box-inner ul {
   padding: 1em;
@@ -492,7 +506,10 @@ body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan
   background-size: cover;
 }
 body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan-content-box-inner .plan-price {
+  padding: 1em;
   margin: 0;
+  border: 2px solid rgb(102, 153, 255);
+  text-align: center;
 }
 body main .access-info .access-inner .access-flex-container {
   display: flex;

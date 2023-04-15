@@ -270,6 +270,7 @@ section {
 }
 
 .section-headline {
+  margin-bottom: 1em;
   text-align: center;
 }
 .section-headline h2 {
@@ -289,7 +290,7 @@ section {
   z-index: -90;
 }
 .section-headline h3 {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgb(141, 187, 255);
 }
 .section-headline p {
   margin: 1em 0;
@@ -460,7 +461,7 @@ body main .service-list .section-inner .service-flex-container .service-content-
   max-width: 50%;
 }
 body main .service-list .section-inner .service-flex-container .service-content-box h4 {
-  margin: 1em 0;
+  margin-bottom: 1em;
 }
 body main .plan-list {
   background-color: #f0f0f0;
@@ -484,6 +485,7 @@ body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan
 body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan-content-box-inner h4 {
   display: block;
   width: 100%;
+  padding: 1em;
   border-bottom: 2px solid rgb(102, 153, 255);
   text-align: center;
 }
@@ -514,6 +516,10 @@ body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan
 body main .access-info .access-inner .access-flex-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+body main .access-info .access-inner .access-flex-container .access-sentence {
+  margin: 1em;
 }
 body main .access-info .access-inner .access-flex-container .access-img img {
   width: 100%;

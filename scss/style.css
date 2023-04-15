@@ -511,6 +511,7 @@ body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan
   margin-right: 6px;
   background: url(../img/list-marker.svg) center no-repeat;
   background-size: cover;
+  vertical-align: middle;
 }
 body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan-content-box-inner .plan-price {
   padding: 1em;

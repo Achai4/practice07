@@ -180,8 +180,11 @@ body{
         display: block;
         width: 80%;
         text-align: center;
-        .hero-headline{
-          color: $sec-font-color;
+        h1{
+          margin-bottom: 1em;
+          .hero-headline{
+            color: $sec-font-color;
+          }
         }
       } // mv-inner
     } // mv-area

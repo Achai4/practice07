@@ -400,7 +400,10 @@ body main .mv-area .mv-inner {
   width: 80%;
   text-align: center;
 }
-body main .mv-area .mv-inner .hero-headline {
+body main .mv-area .mv-inner h1 {
+  margin-bottom: 1em;
+}
+body main .mv-area .mv-inner h1 .hero-headline {
   color: #fff;
 }
 body main .info {

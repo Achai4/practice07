@@ -1,0 +1,16 @@
+$pri-color: rgb(102, 153, 255);
+$sec-color: rgb(141, 187, 255);
+$alpha: 0.7;
+
+header{
+  .header-menu{
+    img{
+      width: 200px;
+    }
+    @include mq{
+      img{
+        width: 250px;
+      }
+    }
+  }
+}

@@ -571,6 +571,7 @@ body main .footer-area {
 }
 body main .footer-area .contact .section-inner img {
   width: 200px;
+  display: inline-block;
 }
 body main .footer-area .contact .section-inner address {
   font-size: 1.2rem;

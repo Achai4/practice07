@@ -94,7 +94,7 @@ body{
       left: 0;
       z-index: 200;
       img{
-        @include logo-img()
+        @include logo-img();
       }
       .gnav-btn{
         display: block;
@@ -371,7 +371,8 @@ body{
       .contact{
         .section-inner{
           img{
-            @include logo-img()
+            @include logo-img();
+            display: inline-block;
           }
           address{
             font-size: 1.2rem;

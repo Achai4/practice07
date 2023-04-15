@@ -19,6 +19,7 @@ body{
       flex-direction: row;
       width: 100vw;
       padding: 1em;
+      background-color: rgba(255, 255, 255, 0.7);
       justify-content: space-between;
       align-items: center;
       position: fixed;
@@ -108,4 +109,18 @@ body{
       } // gnav-content
     } // nav.small
   } // header
+  main{
+    .mv-area{
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      padding-top: 70px;
+      justify-content: center;
+      align-items: center;
+      .mv-inner{
+        display: block;
+        width: 80%;
+      }
+    }
+  }
 } // body

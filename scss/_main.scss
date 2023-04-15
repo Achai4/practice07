@@ -1,7 +1,7 @@
 $pri-color: rgb(102, 153, 255);
 $sec-color: rgb(141, 187, 255);
-$pri-font-color: #000;
-$sec-font-color: #fff;
+$pri-font-color: rgba(0, 0, 0, 0.9);
+$sec-font-color: rgba(255, 255, 255, 0.9);
 $alpha: 0.7;
 
 ////////// 全体 //////////
@@ -38,7 +38,7 @@ section{
 .section-headline{
   text-align: center;
   h2{
-    margin-bottom: 2em;
+    margin-bottom: 26px;
     position: relative;
     z-index: 100;
     &::before{
@@ -188,6 +188,8 @@ body{
           margin-bottom: 1em;
           .hero-headline{
             color: $sec-font-color;
+            font-size: 1em;
+            font-weight: 600;
           }
         }
       } // mv-inner
@@ -207,8 +209,12 @@ body{
           img{
             width: 100%;
           }
-          .info-headline{
+          h2{
             margin: 1em 0;
+            .info-headline{
+              font-size: 1em;
+              font-weight: 500;
+            }
           }
         }
       }

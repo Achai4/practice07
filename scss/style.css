@@ -273,7 +273,7 @@ section {
   text-align: center;
 }
 .section-headline h2 {
-  margin-bottom: 2em;
+  margin-bottom: 26px;
   position: relative;
   z-index: 100;
 }
@@ -293,13 +293,13 @@ button {
   padding: 1em 3em;
   border-radius: 5px;
   background-color: rgb(102, 153, 255);
-  color: #fff;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 body {
   width: 100vw;
   background-color: #fff;
-  color: #000;
+  color: rgba(0, 0, 0, 0.9);
   font-family: "Noto Sans JP", "Sans-serif";
 }
 body header .header-menu {
@@ -329,7 +329,7 @@ body header .header-menu .gnav-btn span, body header .header-menu .gnav-btn span
   display: block;
   width: 30px;
   height: 5px;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.9);
   position: relative;
 }
 body header .header-menu .gnav-btn span::before {
@@ -357,8 +357,8 @@ body header nav.small .gnav-content .gnav-list {
   width: 70vw;
   height: 100vh;
   padding-top: 70px;
-  background-color: #000;
-  color: #fff;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
   position: fixed;
   top: 0;
   left: -100%;
@@ -374,7 +374,7 @@ body header nav.small .gnav-content .gnav-list li a {
   width: 80%;
   padding: 1.5em;
   margin: 0 auto;
-  border-bottom: 1px dotted #fff;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.9);
   font-size: 0.8rem;
   font-weight: 300;
   text-align: center;
@@ -408,7 +408,9 @@ body main .mv-area .mv-inner h1 {
   margin-bottom: 1em;
 }
 body main .mv-area .mv-inner h1 .hero-headline {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1em;
+  font-weight: 600;
 }
 body main .info {
   display: block;
@@ -421,15 +423,19 @@ body main .info .info-flex-container {
   justify-content: center;
 }
 body main .info .info-flex-container .info-flex-item {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.9);
   text-align: center;
   flex-basis: 48%;
 }
 body main .info .info-flex-container .info-flex-item img {
   width: 100%;
 }
-body main .info .info-flex-container .info-flex-item .info-headline {
+body main .info .info-flex-container .info-flex-item h2 {
   margin: 1em 0;
+}
+body main .info .info-flex-container .info-flex-item h2 .info-headline {
+  font-size: 1em;
+  font-weight: 500;
 }
 body main .service-list .section-inner .service-flex-container {
   display: flex;

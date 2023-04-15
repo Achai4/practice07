@@ -269,7 +269,7 @@ body{
               h4{
                 display: block;
                 width: 100%;
-                padding: 1em;
+                padding: 0.7em;
                 border-bottom: 2px solid $pri-color;
                 text-align: center;
               }
@@ -305,7 +305,7 @@ body{
       }
     } // plan
     .access-info{
-      .access-inner{
+      .section-inner{
         .access-flex-container{
           display: flex;
           flex-direction: column;
@@ -327,6 +327,11 @@ body{
           border-radius: 10px;
           background-color: $ter-color;
           overflow: hidden;
+          iframe{
+            width: 100%;
+            height: 100%;
+            transform: translateY(0);
+          }
         }
       }
     } // .access-info

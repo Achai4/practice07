@@ -485,7 +485,7 @@ body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan
 body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan-content-box-inner h4 {
   display: block;
   width: 100%;
-  padding: 1em;
+  padding: 0.7em;
   border-bottom: 2px solid rgb(102, 153, 255);
   text-align: center;
 }
@@ -513,23 +513,28 @@ body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan
   border: 2px solid rgb(102, 153, 255);
   text-align: center;
 }
-body main .access-info .access-inner .access-flex-container {
+body main .access-info .section-inner .access-flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-body main .access-info .access-inner .access-flex-container .access-sentence {
+body main .access-info .section-inner .access-flex-container .access-sentence {
   margin: 1em;
 }
-body main .access-info .access-inner .access-flex-container .access-img img {
+body main .access-info .section-inner .access-flex-container .access-img img {
   width: 100%;
   border-radius: 50%;
   overflow: hidden;
 }
-body main .access-info .access-inner .iframe-wrapper {
+body main .access-info .section-inner .iframe-wrapper {
   aspect-ratio: 3/4;
   width: 100%;
   border-radius: 10px;
   background-color: #f0f0f0;
   overflow: hidden;
+}
+body main .access-info .section-inner .iframe-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  transform: translateY(0);
 }/*# sourceMappingURL=style.css.map */

@@ -394,6 +394,7 @@ body main .mv-area {
   background: url(../img/hero.jpg) center no-repeat;
   background-size: cover;
   justify-content: center;
+  align-items: center;
 }
 body main .mv-area .mv-inner {
   display: block;

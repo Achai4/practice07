@@ -49,7 +49,7 @@ section{
       width: 40px;
       height: 40px;
       background-color: $sec-color;
-      transform: rotate(45deg) translate(-20px, -20px);
+      transform: translate(-20px, -20px) rotate(45deg);
       position: absolute;
       top: 50%;
       left: 50%;

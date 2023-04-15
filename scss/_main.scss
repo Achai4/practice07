@@ -3,6 +3,9 @@ $sec-color: rgb(141, 187, 255);
 $ter-color: #f0f0f0;
 $pri-font-color: rgba(0, 0, 0, 0.9);
 $sec-font-color: rgba(255, 255, 255, 0.9);
+@mixin logo-img{
+  width: 200px;
+}
 
 ////////// 全体 //////////
 h1{
@@ -91,7 +94,7 @@ body{
       left: 0;
       z-index: 200;
       img{
-        width: 200px;
+        @include logo-img()
       }
       .gnav-btn{
         display: block;
@@ -344,5 +347,30 @@ body{
         }
       }
     } // .access-info
+    
+    .footer-area{
+      background-color: $ter-color;
+      color: $sec-font-color;
+      text-align: center;
+      .contact{
+        .section-inner{
+          img{
+            @include logo-img()
+          }
+          address{
+            font-size: 1.2rem;
+            font-weight: 500;
+          }
+        }
+      }
+      .copyright{
+        padding: 1rem;
+        background-color: $pri-font-color;
+        small{
+          font-size: 0.6rem;
+          font-weight: 300;
+        }
+      }
+    }
   } // main
 } // body

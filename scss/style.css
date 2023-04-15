@@ -550,4 +550,24 @@ body main .access-info .section-inner .iframe-wrapper iframe {
   width: 100%;
   height: 100%;
   transform: translateY(0);
+}
+body main .footer-area {
+  background-color: #f0f0f0;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+body main .footer-area .contact .section-inner img {
+  width: 200px;
+}
+body main .footer-area .contact .section-inner address {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+body main .footer-area .copyright {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+body main .footer-area .copyright small {
+  font-size: 0.6rem;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */

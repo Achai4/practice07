@@ -348,6 +348,7 @@ body{
       }
     } // .access-info
     .pagetop{
+      padding: 1.5rem 0;
       background-color: $ter-color;
       text-align: right;
       p{
@@ -356,10 +357,13 @@ body{
             content: "";
             display: inline-block;
             background: url(../img/list-marker.svg) center no-repeat;
+            background-size: cover;
             width: 1.1em;
             height: 1.1em;
             padding: 0.5em;
             margin-left: 6px;
+            transform: rotate(-45deg);
+            vertical-align: middle;
           }
         }
       }

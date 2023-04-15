@@ -552,6 +552,7 @@ body main .access-info .section-inner .iframe-wrapper iframe {
   transform: translateY(0);
 }
 body main .pagetop {
+  padding: 1.5rem 0;
   background-color: #f0f0f0;
   text-align: right;
 }
@@ -559,10 +560,13 @@ body main .pagetop p a::after {
   content: "";
   display: inline-block;
   background: url(../img/list-marker.svg) center no-repeat;
+  background-size: cover;
   width: 1.1em;
   height: 1.1em;
   padding: 0.5em;
   margin-left: 6px;
+  transform: rotate(-45deg);
+  vertical-align: middle;
 }
 body main .footer-area {
   background-color: #f0f0f0;

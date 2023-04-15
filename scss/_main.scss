@@ -230,10 +230,13 @@ body{
           }
           .service-content-box{
             padding: 1em;
+            border: 2px solid $pri-color;
+            border-radius: 10px;
             text-align: center;
             img{
-              width:10em;
-              max-width: auto;
+              display: inline-block;
+              width:8em;
+              max-width: 50%;
             }
           }
         }

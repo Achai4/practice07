@@ -447,11 +447,14 @@ body main .service-list .section-inner .service-flex-container .service-flex-ite
 }
 body main .service-list .section-inner .service-flex-container .service-content-box {
   padding: 1em;
+  border: 2px solid rgb(102, 153, 255);
+  border-radius: 10px;
   text-align: center;
 }
 body main .service-list .section-inner .service-flex-container .service-content-box img {
-  width: 10em;
-  max-width: auto;
+  display: inline-block;
+  width: 8em;
+  max-width: 50%;
 }
 body main .plan-list .section-inner .plan-flex-container {
   display: flex;

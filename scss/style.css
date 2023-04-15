@@ -237,7 +237,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -316,7 +316,7 @@ body header .header-menu {
   padding: 1em;
   background-color: rgba(255, 255, 255, 0.7);
   -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   justify-content: space-between;
   align-items: center;
   position: fixed;

@@ -381,6 +381,9 @@ body{
             @include logo-img();
             display: inline-block;
           }
+          p{
+            margin: 1em 0;
+          }
           address{
             font-size: 1.3rem;
             font-weight: 500;

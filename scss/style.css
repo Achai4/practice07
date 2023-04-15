@@ -568,24 +568,24 @@ body main .pagetop p a::after {
   transform: rotate(-90deg);
   vertical-align: middle;
 }
-body footer .footer-area {
+body footer.footer-area {
   background-color: #f0f0f0;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
 }
-body footer .footer-area .contact .section-inner img {
+body footer.footer-area .contact .section-inner img {
   width: 200px;
   display: inline-block;
 }
-body footer .footer-area .contact .section-inner address {
+body footer.footer-area .contact .section-inner address {
   font-size: 1.2rem;
   font-weight: 500;
 }
-body footer .footer-area .copyright {
+body footer.footer-area .copyright {
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.9);
 }
-body footer .footer-area .copyright small {
+body footer.footer-area .copyright small {
   font-size: 0.6rem;
   font-weight: 300;
 }/*# sourceMappingURL=style.css.map */

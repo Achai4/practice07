@@ -370,7 +370,7 @@ body{
     } // pagetop
   } // main
   footer{
-    .footer-area{
+    &.footer-area{
       background-color: $ter-color;
       color: $sec-font-color;
       text-align: center;

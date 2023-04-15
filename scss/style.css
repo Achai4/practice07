@@ -297,6 +297,7 @@ body header nav.small .gnav-content .gnav-list {
   height: 100vh;
   padding-top: 70px;
   background-color: #000;
+  color: #fff;
   position: fixed;
   top: 0;
   left: -100%;

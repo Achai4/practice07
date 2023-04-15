@@ -1,16 +1,104 @@
 $pri-color: rgb(102, 153, 255);
 $sec-color: rgb(141, 187, 255);
+$pri-font-color: #000;
+$sec-font-color: #fff;
 $alpha: 0.7;
 
-header{
-  .header-menu{
-    img{
-      width: 200px;
-    }
-    @include mq{
-      img{
-        width: 250px;
-      }
-    }
-  }
+.large{
+  display: none;
 }
+
+body{
+  width: 100vw;
+  background-color: #fff;
+  color: $pri-font-color;
+  font-family: "Noto Sans JP", "Sans-serif";
+  header{
+    .header-menu{
+      display: flex;
+      flex-direction: row;
+      width: 100vw;
+      padding: 1em;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 200;
+      img{
+        width: 200px;
+      }
+      .gnav-btn{
+        display: block;
+        width: 30px;
+        height: 25px;
+        position: relative;
+        z-index: 300;
+      }
+      .gnav-btn{
+        span, span::before, span::after{
+          display: block;
+          width: 30px;
+          height: 5px;
+          background-color: $font-color;
+          position: relative;
+        }
+        span::before{
+          top: 10px;
+        }
+        span::after{
+          top: 15px;
+        }
+      }
+    } // header menu
+    nav.small{
+      .gnav-content{
+        .gnav-hidden{
+          display: none;
+        } // .gna-hidden
+        .gnav-black{
+          display: none;
+          width: 100vw;
+          height: 100vh;
+          background-color: rgba(0, 0, 0, 0.5);
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 290;
+          transition: 0.3s;
+        } // .gnav-black
+        .gnav-list{
+          display: block;
+          width: 70vw;
+          height: 100vh;
+          padding-top: 70px;
+          background-color: $pri-font-color;
+          position: fixed;
+          top: 0;
+          left: -100%;
+          z-index: 300;
+          transition: 0.3s;
+          li{
+            display: block;
+            width: 100%;
+            a{
+              display: block;
+              width: 80%;
+              padding: 1.5em;
+              margin: 0 auto;
+              border-bottom: 1px dotted $sec-font-color;
+              text-align: center;
+            }
+          }
+        } // gnav-list
+        /* ----- インタラクティブ ----- */
+        #gnav-input:checked ~ .gnav-black{
+          display: block;
+        }
+        #gnav-input:checked ~ .gnav-list{
+          left: 0;
+        }
+      } // gnav-content
+    } // nav.small
+  } // header
+} // body

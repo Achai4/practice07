@@ -382,8 +382,12 @@ body{
             display: inline-block;
           }
           address{
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             font-weight: 500;
+            a{
+              font-size: 1em;
+              font-weight: 500;
+            }
           }
         }
       }

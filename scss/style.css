@@ -581,7 +581,11 @@ body footer.footer-area .contact .section-inner img {
   display: inline-block;
 }
 body footer.footer-area .contact .section-inner address {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+body footer.footer-area .contact .section-inner address a {
+  font-size: 1em;
   font-weight: 500;
 }
 body footer.footer-area .copyright {

@@ -275,6 +275,7 @@ section {
 }
 .section-headline h2 {
   margin-bottom: 26px;
+  letter-spacing: 0.1em;
   position: relative;
   z-index: 100;
 }

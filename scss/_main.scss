@@ -33,8 +33,10 @@ span.nowrap{
   margin: 0 auto;
 }
 button{
-  padding: 0.7em 3em;
+  padding: 1em 3em;
+  border-radius: 5px;
   background-color: $pri-color;
+  color: $sec-font-color;
 }
 
 ////////// ツリー開始 //////////
@@ -88,7 +90,7 @@ body{
       .gnav-content{
         .gnav-hidden{
           display: none;
-        } // .gna-hidden
+        }
         .gnav-black{
           display: none;
           width: 100vw;
@@ -99,7 +101,7 @@ body{
           left: 0;
           z-index: 290;
           transition: 0.3s;
-        } // .gnav-black
+        }
         .gnav-list{
           display: block;
           width: 70vw;
@@ -152,7 +154,7 @@ body{
         display: block;
         width: 80%;
         text-align: center;
-        h1{
+        .hero-headline{
           color: $sec-font-color;
         }
       } // mv-inner
@@ -167,19 +169,47 @@ body{
         flex-direction: column;
         justify-content: center;
         .info-flex-item{
+          color: $sec-font-color;
+          text-align: center;
           flex-basis: 48%;
-        }
-        h2{
-          margin-bottom: 1em;
+          img{
+            width: 100%;
+          }
+          .info-headline{
+            margin: 1em 0;
+          }
         }
       }
     } // info
-    .service{
+    .service-list{
       .section-inner{
-        .section-headline{
-
+        .service-flex-container{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          .service-flex-item{
+            margin-bottom: 1em;
+          }
+          .service-content-box{
+            padding: 1em;
+            text-align: center;
+            img{
+              width:10em;
+              max-width: auto;
+            }
+          }
         }
       }
-    }
+    } //service
+    .plan-list{
+      .section-inner{
+        .plan-flex-container{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          
+        }
+      }
+    } // plan
   } // main
 } // body

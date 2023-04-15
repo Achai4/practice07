@@ -267,8 +267,10 @@ span.nowrap {
 }
 
 button {
-  padding: 0.7em 3em;
+  padding: 1em 3em;
+  border-radius: 5px;
   background-color: rgb(102, 153, 255);
+  color: #fff;
 }
 
 body {
@@ -372,7 +374,7 @@ body main .mv-area .mv-inner {
   width: 80%;
   text-align: center;
 }
-body main .mv-area .mv-inner h1 {
+body main .mv-area .mv-inner .hero-headline {
   color: #fff;
 }
 body main .info {
@@ -387,8 +389,34 @@ body main .info .info-flex-container {
   justify-content: center;
 }
 body main .info .info-flex-container .info-flex-item {
+  color: #fff;
+  text-align: center;
   flex-basis: 48%;
 }
-body main .info .info-flex-container h2 {
+body main .info .info-flex-container .info-flex-item img {
+  width: 100%;
+}
+body main .info .info-flex-container .info-flex-item .info-headline {
+  margin: 1em 0;
+}
+body main .service-list .section-inner .service-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body main .service-list .section-inner .service-flex-container .service-flex-item {
   margin-bottom: 1em;
+}
+body main .service-list .section-inner .service-flex-container .service-content-box {
+  padding: 1em;
+  text-align: center;
+}
+body main .service-list .section-inner .service-flex-container .service-content-box img {
+  width: 10em;
+  max-width: auto;
+}
+body main .plan-list .section-inner .plan-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

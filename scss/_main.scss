@@ -105,7 +105,7 @@ body{
           width: 30px;
           height: 5px;
           background-color: $pri-font-color;
-          position: relative
+          position: absolute;
           }
           &::before{
             top: 10px;

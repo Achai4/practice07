@@ -337,7 +337,7 @@ body header .header-menu .gnav-btn span, body header .header-menu .gnav-btn span
   width: 30px;
   height: 5px;
   background-color: rgba(0, 0, 0, 0.9);
-  position: relative;
+  position: absolute;
 }
 body header .header-menu .gnav-btn span::before {
   top: 10px;

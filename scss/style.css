@@ -236,6 +236,10 @@ th {
   display: none;
 }
 
+span.nowrap {
+  display: inline-block;
+}
+
 body {
   width: 100vw;
   background-color: #fff;

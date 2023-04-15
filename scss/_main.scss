@@ -15,8 +15,8 @@ h2{
   font-weight: 500;
 }
 h3{
-  font-size: 0.7rem;
-  font-weight: 300;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 h4{
   font-weight: 500;
@@ -64,7 +64,7 @@ section{
 }
 button{
   padding: 1em 3em;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: $pri-color;
   color: $sec-font-color;
 }
@@ -271,6 +271,7 @@ body{
                 width: 100%;
                 padding: 0.7em;
                 border-bottom: 2px solid $pri-color;
+                font-size: 1.1rem;
                 text-align: center;
               }
               p{
@@ -309,9 +310,13 @@ body{
         .access-flex-container{
           display: flex;
           flex-direction: column;
+          margin-bottom: 2rem;
           justify-content: center;
           .access-sentence{
             margin: 1em;
+            h4{
+              margin-bottom: 1rem;
+            }
           }
           .access-img{
             img{

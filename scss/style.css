@@ -242,8 +242,8 @@ h2 {
 }
 
 h3 {
-  font-size: 0.7rem;
-  font-weight: 300;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 
 h4 {
@@ -298,7 +298,7 @@ section {
 
 button {
   padding: 1em 3em;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: rgb(102, 153, 255);
   color: rgba(255, 255, 255, 0.9);
 }
@@ -487,6 +487,7 @@ body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan
   width: 100%;
   padding: 0.7em;
   border-bottom: 2px solid rgb(102, 153, 255);
+  font-size: 1.1rem;
   text-align: center;
 }
 body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan-content-box-inner p {
@@ -516,10 +517,14 @@ body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan
 body main .access-info .section-inner .access-flex-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2rem;
   justify-content: center;
 }
 body main .access-info .section-inner .access-flex-container .access-sentence {
   margin: 1em;
+}
+body main .access-info .section-inner .access-flex-container .access-sentence h4 {
+  margin-bottom: 1rem;
 }
 body main .access-info .section-inner .access-flex-container .access-img img {
   width: 100%;

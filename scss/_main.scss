@@ -3,7 +3,6 @@ $sec-color: rgb(141, 187, 255);
 $ter-color: #f0f0f0;
 $pri-font-color: rgba(0, 0, 0, 0.9);
 $sec-font-color: rgba(255, 255, 255, 0.9);
-$alpha: 0.7;
 
 ////////// 全体 //////////
 h1{
@@ -45,6 +44,7 @@ section{
     z-index: 100;
     &::before{
       content: "";
+      display: inline-block;
       width: 40px;
       height: 40px;
       background-color: $sec-color;
@@ -80,7 +80,7 @@ body{
       display: flex;
       flex-direction: row;
       width: 100vw;
-      padding: 1em;
+      padding: 0.7rem;
       background-color: rgba(255, 255, 255, 0.7);
       backdrop-filter: blur(10px);
       justify-content: space-between;
@@ -98,8 +98,6 @@ body{
         height: 25px;
         position: relative;
         z-index: 300;
-      }
-      .gnav-btn{
         span{
           &, &::before, &::after{
           display: block;

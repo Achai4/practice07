@@ -232,12 +232,43 @@ th {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+h4 {
+  font-weight: 500;
+}
+
 .large {
   display: none;
 }
 
 span.nowrap {
   display: inline-block;
+  white-space: nowrap;
+}
+
+.ssection-inner {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+button {
+  padding: 0.7em 3em;
+  background-color: rgb(102, 153, 255);
 }
 
 body {
@@ -333,9 +364,29 @@ body main .mv-area {
   height: 100vh;
   padding-top: 70px;
   justify-content: center;
-  align-items: center;
 }
 body main .mv-area .mv-inner {
   display: block;
   width: 80%;
+  text-align: center;
+}
+body main .mv-area .mv-inner h1 {
+  color: #fff;
+}
+body main .info {
+  display: block;
+  width: 100%;
+  padding: 3rem;
+  background-color: rgb(102, 153, 255);
+}
+body main .info .info-flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body main .info .info-flex-container .info-flex-item {
+  flex-basis: 48%;
+}
+body main .info .info-flex-container h2 {
+  margin-bottom: 1em;
 }/*# sourceMappingURL=style.css.map */

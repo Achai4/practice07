@@ -4,13 +4,40 @@ $pri-font-color: #000;
 $sec-font-color: #fff;
 $alpha: 0.7;
 
+////////// 全体 //////////
+h1{
+  font-size: 2rem;
+  font-weight: 600;
+}
+h2{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+h3{
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+h4{
+  font-weight: 500;
+}
 .large{
   display: none;
 }
 span.nowrap{
   display: inline-block;
+  white-space: nowrap;
+}
+.ssection-inner{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+button{
+  padding: 0.7em 3em;
+  background-color: $pri-color;
 }
 
+////////// ツリー開始 //////////
 body{
   width: 100vw;
   background-color: #fff;
@@ -119,11 +146,38 @@ body{
       height: 100vh;
       padding-top: 70px;
       justify-content: center;
-      align-items: center;
       .mv-inner{
         display: block;
         width: 80%;
+        text-align: center;
+        h1{
+          color: $sec-font-color;
+        }
+      } // mv-inner
+    } // mv-area
+    .info{
+      display: block;
+      width: 100%;
+      padding: 3rem;
+      background-color: $pri-color;
+      .info-flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .info-flex-item{
+          flex-basis: 48%;
+        }
+        h2{
+          margin-bottom: 1em;
+        }
+      }
+    } // info
+    .service{
+      .section-inner{
+        .section-headline{
+
+        }
       }
     }
-  }
+  } // main
 } // body

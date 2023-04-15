@@ -315,6 +315,8 @@ body header .header-menu {
   width: 100vw;
   padding: 1em;
   background-color: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   justify-content: space-between;
   align-items: center;
   position: fixed;

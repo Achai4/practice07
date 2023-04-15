@@ -27,10 +27,29 @@ span.nowrap{
   display: inline-block;
   white-space: nowrap;
 }
-.ssection-inner{
+.section-inner{
   display: block;
   width: 90%;
   margin: 0 auto;
+}
+.section-title{
+  text-align: center;
+  h2{
+    margin-bottom: 2em;
+    position: relative;
+    z-index: 100;
+    &::before{
+      content: "";
+      width: 40px;
+      height: 40px;
+      background-color: $sec-color;
+      transform: rotate(45deg) translate(-20px, -20px);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 90;
+    }
+  }
 }
 button{
   padding: 1em 3em;
@@ -207,7 +226,7 @@ body{
           display: flex;
           flex-direction: column;
           justify-content: center;
-          
+
         }
       }
     } // plan

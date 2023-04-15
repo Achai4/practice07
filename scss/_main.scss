@@ -41,7 +41,7 @@ body{
           display: block;
           width: 30px;
           height: 5px;
-          background-color: $font-color;
+          background-color: $pri-font-color;
           position: relative
           }
           &::before{
@@ -93,7 +93,7 @@ body{
             }
           }
         } // gnav-list
-        /* ----- インタラクティブ ----- */
+        ///インタラクティブ ///
         #gnav-input{
           &:checked ~ {
             .gnav-black{

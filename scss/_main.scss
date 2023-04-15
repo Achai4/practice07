@@ -371,10 +371,11 @@ body{
   } // main
   footer{
     &.footer-area{
-      background-color: $ter-color;
+      background-color: #1e90ff;
       color: $sec-font-color;
       text-align: center;
       .contact{
+        padding: 3rem 0;
         .section-inner{
           img{
             @include logo-img();

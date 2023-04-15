@@ -569,9 +569,12 @@ body main .pagetop p a::after {
   vertical-align: middle;
 }
 body footer.footer-area {
-  background-color: #f0f0f0;
+  background-color: #1e90ff;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
+}
+body footer.footer-area .contact {
+  padding: 3rem 0;
 }
 body footer.footer-area .contact .section-inner img {
   width: 200px;

@@ -551,6 +551,19 @@ body main .access-info .section-inner .iframe-wrapper iframe {
   height: 100%;
   transform: translateY(0);
 }
+body main .pagetop {
+  background-color: #f0f0f0;
+  text-align: right;
+}
+body main .pagetop p a::after {
+  content: "";
+  display: inline-block;
+  background: url(../img/list-marker.svg) center no-repeat;
+  width: 1.1em;
+  height: 1.1em;
+  padding: 0.5em;
+  margin-left: 6px;
+}
 body main .footer-area {
   background-color: #f0f0f0;
   color: rgba(255, 255, 255, 0.9);

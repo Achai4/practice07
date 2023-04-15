@@ -347,7 +347,23 @@ body{
         }
       }
     } // .access-info
-    
+    .pagetop{
+      background-color: $ter-color;
+      text-align: right;
+      p{
+        a{
+          &::after{
+            content: "";
+            display: inline-block;
+            background: url(../img/list-marker.svg) center no-repeat;
+            width: 1.1em;
+            height: 1.1em;
+            padding: 0.5em;
+            margin-left: 6px;
+          }
+        }
+      }
+    }
     .footer-area{
       background-color: $ter-color;
       color: $sec-font-color;

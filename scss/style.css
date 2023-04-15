@@ -391,7 +391,6 @@ body header nav.small .gnav-content #gnav-input:checked ~ .gnav-list {
 }
 body main .mv-area {
   display: flex;
-  width: 100%;
   height: 100vh;
   padding-top: 70px;
   background: url(../img/hero.jpg) center no-repeat;
@@ -413,8 +412,6 @@ body main .mv-area .mv-inner h1 .hero-headline {
   font-weight: 600;
 }
 body main .info {
-  display: block;
-  width: 100%;
   background-color: rgb(102, 153, 255);
 }
 body main .info .info-flex-container {
@@ -456,8 +453,60 @@ body main .service-list .section-inner .service-flex-container .service-content-
   width: 8em;
   max-width: 50%;
 }
+body main .plan-list {
+  background-color: #f0f0f0;
+}
 body main .plan-list .section-inner .plan-flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+body main .plan-list .section-inner .plan-flex-container .plan-content-box img {
+  width: 100%;
+}
+body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan-content-box-inner {
+  padding: 1em;
+}
+body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan-content-box-inner h4 {
+  display: block;
+  width: 100%;
+  border-radius: 2px solid rgb(102, 153, 255);
+  text-align: center;
+}
+body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan-content-box-inner p {
+  display: block;
+  width: 100%;
+  margin: 1em 0;
+  text-align: center;
+}
+body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan-content-box-inner ul {
+  padding: 1em;
+}
+body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan-content-box-inner ul li::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 6px;
+  background: url(../img/list-marker.svg) center no-repeat;
+  background-size: cover;
+}
+body main .plan-list .section-inner .plan-flex-container .plan-content-box .plan-content-box-inner .plan-price {
+  margin: 0;
+}
+body main .access-info .access-inner .access-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+body main .access-info .access-inner .access-flex-container .access-img img {
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+body main .access-info .access-inner .iframe-wrapper {
+  aspect-ratio: 3/4;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */

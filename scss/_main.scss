@@ -1,5 +1,6 @@
 $pri-color: rgb(102, 153, 255);
 $sec-color: rgb(141, 187, 255);
+$ter-color: #f0f0f0;
 $pri-font-color: rgba(0, 0, 0, 0.9);
 $sec-font-color: rgba(255, 255, 255, 0.9);
 $alpha: 0.7;
@@ -173,7 +174,6 @@ body{
   main{
     .mv-area{
       display: flex;
-      width: 100%;
       height: 100vh;
       padding-top: 70px;
       background: url(../img/hero.jpg) center no-repeat;
@@ -195,8 +195,6 @@ body{
       } // mv-inner
     } // mv-area
     .info{
-      display: block;
-      width: 100%;
       background-color: $pri-color;
       .info-flex-container{
         display: flex;
@@ -243,14 +241,73 @@ body{
       }
     } //service
     .plan-list{
+      background-color: $ter-color;
       .section-inner{
         .plan-flex-container{
           display: flex;
           flex-direction: column;
           justify-content: center;
-
+          .plan-content-box{
+            img{
+              width: 100%;
+            }
+            .plan-content-box-inner{
+              padding: 1em;
+              h4{
+                display: block;
+                width: 100%;
+                border-radius: 2px solid $pri-color;
+                text-align: center;
+              }
+              p{
+                display: block;
+                width: 100%;
+                margin: 1em 0;
+                text-align: center;
+              }
+              ul{
+                padding: 1em;
+                li{
+                  &::before{
+                    content: "";
+                    display: inline-block;
+                    width: 1em;
+                    height: 1em;
+                    margin-right: 6px;
+                    background: url(../img/list-marker.svg) center no-repeat;
+                    background-size: cover;
+                  }
+                }
+              }
+              .plan-price{
+                margin: 0;
+              }
+            }
+          }
         }
       }
     } // plan
+    .access-info{
+      .access-inner{
+        .access-flex-container{
+          display: flex;
+          flex-direction: column;
+          .access-img{
+            img{
+              width: 100%;
+              border-radius: 50%;
+              overflow: hidden;
+            }
+          }
+        }
+        .iframe-wrapper{
+          aspect-ratio: 3/4;
+          width: 100%;
+          border-radius: 10px;
+          background-color: $ter-color;
+          overflow: hidden;
+        }
+      }
+    } // .access-info
   } // main
 } // body

@@ -362,12 +362,14 @@ body{
             height: 1.1em;
             padding: 0.5em;
             margin-left: 6px;
-            transform: rotate(-45deg);
+            transform: rotate(-90deg);
             vertical-align: middle;
           }
         }
       }
-    }
+    } // pagetop
+  } // main
+  footer{
     .footer-area{
       background-color: $ter-color;
       color: $sec-font-color;
@@ -392,6 +394,6 @@ body{
           font-weight: 300;
         }
       }
-    }
-  } // main
+    } // footer-area
+  } // footer
 } // body

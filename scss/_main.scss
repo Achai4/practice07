@@ -36,18 +36,20 @@ body{
         z-index: 300;
       }
       .gnav-btn{
-        span, span::before, span::after{
+        span{
+          &, &::before, &::after{
           display: block;
           width: 30px;
           height: 5px;
           background-color: $font-color;
-          position: relative;
-        }
-        span::before{
-          top: 10px;
-        }
-        span::after{
-          top: 15px;
+          position: relative
+          }
+          &::before{
+            top: 10px;
+          }
+          &::after{
+            top: 20px;
+          }
         }
       }
     } // header menu
@@ -92,11 +94,15 @@ body{
           }
         } // gnav-list
         /* ----- インタラクティブ ----- */
-        #gnav-input:checked ~ .gnav-black{
-          display: block;
-        }
-        #gnav-input:checked ~ .gnav-list{
-          left: 0;
+        #gnav-input{
+          &:checked ~ {
+            .gnav-black{
+              display: block;
+            }
+            .gnav-list{
+              left: 0;
+            }
+          }
         }
       } // gnav-content
     } // nav.small

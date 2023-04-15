@@ -27,6 +27,9 @@ span.nowrap{
   display: inline-block;
   white-space: nowrap;
 }
+section{
+  padding: 3rem 0;
+}
 .section-inner{
   display: block;
   width: 90%;
@@ -192,7 +195,6 @@ body{
     .info{
       display: block;
       width: 100%;
-      padding: 3rem;
       background-color: $pri-color;
       .info-flex-container{
         display: flex;

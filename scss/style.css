@@ -260,6 +260,10 @@ span.nowrap {
   white-space: nowrap;
 }
 
+section {
+  padding: 3rem 0;
+}
+
 .section-inner {
   display: block;
   width: 90%;
@@ -410,7 +414,6 @@ body main .mv-area .mv-inner h1 .hero-headline {
 body main .info {
   display: block;
   width: 100%;
-  padding: 3rem;
   background-color: rgb(102, 153, 255);
 }
 body main .info .info-flex-container {

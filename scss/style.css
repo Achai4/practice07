@@ -266,15 +266,15 @@ span.nowrap {
   margin: 0 auto;
 }
 
-.section-title {
+.section-headline {
   text-align: center;
 }
-.section-title h2 {
+.section-headline h2 {
   margin-bottom: 2em;
   position: relative;
   z-index: 100;
 }
-.section-title h2::before {
+.section-headline h2::before {
   content: "";
   width: 40px;
   height: 40px;
@@ -372,7 +372,13 @@ body header nav.small .gnav-content .gnav-list li a {
   padding: 1.5em;
   margin: 0 auto;
   border-bottom: 1px dotted #fff;
+  font-size: 0.8rem;
+  font-weight: 300;
   text-align: center;
+}
+body header nav.small .gnav-content .gnav-list li a::first-line {
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 body header nav.small .gnav-content #gnav-input:checked ~ .gnav-black {
   display: block;

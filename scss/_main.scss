@@ -32,7 +32,7 @@ span.nowrap{
   width: 90%;
   margin: 0 auto;
 }
-.section-title{
+.section-headline{
   text-align: center;
   h2{
     margin-bottom: 2em;
@@ -142,8 +142,15 @@ body{
               padding: 1.5em;
               margin: 0 auto;
               border-bottom: 1px dotted $sec-font-color;
+              font-size: 0.8rem;
+              font-weight: 300;
               text-align: center;
+              &::first-line{
+                font-size: 1.2rem;
+                font-weight: 500;
+              }
             }
+            
           }
         } // gnav-list
         ///インタラクティブ ///

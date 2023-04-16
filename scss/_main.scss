@@ -302,7 +302,7 @@ body{
           .service-flex-item{
             flex-basis: 48%;
             @include mq{
-              flex-basis: 24%;
+              flex-basis: 22%;
             }
           }
           .service-content-box{
@@ -333,11 +333,11 @@ body{
           @include mq{
             flex-direction: row;
             justify-content: space-between;
-            gap: 4rem;
+            gap: 2rem;
           }
           .plan-flex-item{
             @include mq{
-              flex-basis: 30%;
+              flex-basis: 32%;
             }
           }
           .plan-content-box{

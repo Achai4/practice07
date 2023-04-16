@@ -508,7 +508,7 @@ body main .service-list .section-inner .service-flex-container .service-flex-ite
 }
 @media screen and (min-width: 769px) {
   body main .service-list .section-inner .service-flex-container .service-flex-item {
-    flex-basis: 24%;
+    flex-basis: 22%;
   }
 }
 body main .service-list .section-inner .service-flex-container .service-content-box {
@@ -538,12 +538,12 @@ body main .plan-list .section-inner .plan-flex-container {
   body main .plan-list .section-inner .plan-flex-container {
     flex-direction: row;
     justify-content: space-between;
-    gap: 4rem;
+    gap: 2rem;
   }
 }
 @media screen and (min-width: 769px) {
   body main .plan-list .section-inner .plan-flex-container .plan-flex-item {
-    flex-basis: 30%;
+    flex-basis: 32%;
   }
 }
 body main .plan-list .section-inner .plan-flex-container .plan-content-box {

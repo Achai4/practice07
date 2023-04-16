@@ -359,7 +359,7 @@ body header nav.small .gnav-content .gnav-black {
   display: none;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0);
   position: fixed;
   top: 0;
   left: 0;

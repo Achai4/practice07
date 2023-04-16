@@ -25,9 +25,6 @@ h4{
 }
 .large{
   display: none;
-  @include mq{
-    display: initial;
-  }
 }
 span.nowrap{
   display: inline-block;
@@ -134,7 +131,7 @@ body{
           display: none;
           width: 100vw;
           height: 100vh;
-          background-color: rgba(0, 0, 0, 0.5);
+          background-color: rgb(0, 0, 0);
           position: fixed;
           top: 0;
           left: 0;

@@ -269,6 +269,7 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        gap: 1rem;
         @include mq{
           flex-direction: row;
           justify-content: space-between;
@@ -277,7 +278,7 @@ body{
         .info-flex-item{
           color: $sec-font-color;
           text-align: center;
-          flex-basis: 48%;
+          flex-basis: 50%;
           img{
             width: 100%;
           }
@@ -302,10 +303,13 @@ body{
           justify-content: center;
           flex-wrap: wrap;
           gap: 1rem;
+          @include mq{
+            flex-wrap: nowrap;
+          }
           .service-flex-item{
             flex-basis: 48%;
             @include mq{
-              flex-basis: 22%;
+              flex-basis: 25%;
             }
           }
           .service-content-box{
@@ -340,7 +344,7 @@ body{
           }
           .plan-flex-item{
             @include mq{
-              flex-basis: 32%;
+              flex-basis: calc(100 / 3) + "%";
             }
           }
           .plan-content-box{

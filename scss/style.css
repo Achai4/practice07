@@ -473,6 +473,7 @@ body main .info .info-flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 1rem;
 }
 @media screen and (min-width: 769px) {
   body main .info .info-flex-container {
@@ -484,7 +485,7 @@ body main .info .info-flex-container {
 body main .info .info-flex-container .info-flex-item {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-  flex-basis: 48%;
+  flex-basis: 50%;
 }
 body main .info .info-flex-container .info-flex-item img {
   width: 100%;
@@ -508,12 +509,17 @@ body main .service-list .section-inner .service-flex-container {
   flex-wrap: wrap;
   gap: 1rem;
 }
+@media screen and (min-width: 769px) {
+  body main .service-list .section-inner .service-flex-container {
+    flex-wrap: nowrap;
+  }
+}
 body main .service-list .section-inner .service-flex-container .service-flex-item {
   flex-basis: 48%;
 }
 @media screen and (min-width: 769px) {
   body main .service-list .section-inner .service-flex-container .service-flex-item {
-    flex-basis: 22%;
+    flex-basis: 25%;
   }
 }
 body main .service-list .section-inner .service-flex-container .service-content-box {
@@ -548,7 +554,7 @@ body main .plan-list .section-inner .plan-flex-container {
 }
 @media screen and (min-width: 769px) {
   body main .plan-list .section-inner .plan-flex-container .plan-flex-item {
-    flex-basis: 32%;
+    flex-basis: "33.3333333333%";
   }
 }
 body main .plan-list .section-inner .plan-flex-container .plan-content-box {

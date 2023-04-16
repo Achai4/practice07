@@ -41,11 +41,11 @@ h4{
 .large{
   display: none !important;
   @include mq{
-    display: initial;
+    display: initial !important;
   }
 }
 .small{
-  display: initial;
+  display: initial !important;
   @include mq{
     display: none !important;
   }

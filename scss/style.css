@@ -255,12 +255,12 @@ h4 {
 }
 @media screen and (min-width: 769px) {
   .large {
-    display: initial;
+    display: initial !important;
   }
 }
 
 .small {
-  display: initial;
+  display: initial !important;
 }
 @media screen and (min-width: 769px) {
   .small {

@@ -289,7 +289,7 @@ section {
   text-align: center;
 }
 .section-headline h2 {
-  margin-bottom: 18.28854314px;
+  margin-bottom: 12.28854314px;
   letter-spacing: 0.2em;
   position: relative;
   z-index: 100;
@@ -621,7 +621,7 @@ body main .access-info .section-inner .access-flex-container .access-sentence h4
 }
 body main .access-info .section-inner .access-flex-container .access-img img {
   width: 90vw;
-  max-width: 160px;
+  max-width: 240px;
   border-radius: 50%;
   overflow: hidden;
   vertical-align: bottom;

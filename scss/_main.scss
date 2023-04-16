@@ -71,7 +71,7 @@ section{
   margin-bottom: 1em;
   text-align: center;
   h2{
-    margin-bottom:  calc( 40 / 1.414 ) - calc( 16 * 1.5 / 2 ) + 2 + px;
+    margin-bottom:  calc( 40 / 1.414 ) - calc( 16 * 1.5 * 1.5 / 2 ) + 2 + px;
     letter-spacing: 0.2em;
     position: relative;
     z-index: 100;
@@ -416,7 +416,7 @@ body{
           .access-img{
             img{
               width: 90vw;
-              max-width: calc(16 * 5 * 2) + px;
+              max-width: calc(24 * 5 * 2) + px;
               border-radius: 50%;
               overflow: hidden;
               vertical-align: bottom;

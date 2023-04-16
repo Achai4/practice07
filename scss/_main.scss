@@ -299,16 +299,17 @@ body{
       .section-inner{
         .service-flex-container{
           display: flex;
-          flex-direction: row;
-          justify-content: space-between;
+          flex-direction: column;
+          justify-content: center;
           flex-wrap: wrap;
           gap: 1rem;
           @include mq{
+            flex-direction: row;
+            justify-content: space-between;
             flex-wrap: nowrap;
           }
           .service-flex-item{
-            min-width: calc(16 * 10) + px;
-            flex-basis: 48%;
+            max-width: calc(16 * 30) + px;
             @include mq{
               flex-basis: 25%;
             }
@@ -341,7 +342,7 @@ body{
           @include mq{
             flex-direction: row;
             justify-content: space-between;
-            gap: 2rem;
+            gap: 1.5rem;
           }
           .plan-flex-item{
             @include mq{
@@ -408,8 +409,10 @@ body{
             justify-content: space-around;
             align-items: center;
           }
+          .access-flex-item{
+            gap: 1em;
+          }
           .access-sentence{
-            margin: 1em;
             h4{
               margin-bottom: 1rem;
             }

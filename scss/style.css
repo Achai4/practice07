@@ -504,19 +504,20 @@ body main .info .info-flex-container .info-flex-item h2 .info-headline {
 }
 body main .service-list .section-inner .service-flex-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
 }
 @media screen and (min-width: 600px) {
   body main .service-list .section-inner .service-flex-container {
+    flex-direction: row;
+    justify-content: space-between;
     flex-wrap: nowrap;
   }
 }
 body main .service-list .section-inner .service-flex-container .service-flex-item {
-  min-width: 160px;
-  flex-basis: 48%;
+  max-width: 480px;
 }
 @media screen and (min-width: 600px) {
   body main .service-list .section-inner .service-flex-container .service-flex-item {
@@ -550,7 +551,7 @@ body main .plan-list .section-inner .plan-flex-container {
   body main .plan-list .section-inner .plan-flex-container {
     flex-direction: row;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 1.5rem;
   }
 }
 @media screen and (min-width: 600px) {
@@ -614,8 +615,8 @@ body main .access-info .section-inner .access-flex-container {
     align-items: center;
   }
 }
-body main .access-info .section-inner .access-flex-container .access-sentence {
-  margin: 1em;
+body main .access-info .section-inner .access-flex-container .access-flex-item {
+  gap: 1em;
 }
 body main .access-info .section-inner .access-flex-container .access-sentence h4 {
   margin-bottom: 1rem;

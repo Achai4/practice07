@@ -1,6 +1,6 @@
 ////////// メディアクエリ //////////
 @mixin mq{
-  @media screen and (min-width:769px){
+  @media screen and (min-width:600px){
     @content;
   }
 }
@@ -300,13 +300,14 @@ body{
         .service-flex-container{
           display: flex;
           flex-direction: row;
-          justify-content: center;
+          justify-content: space-between;
           flex-wrap: wrap;
           gap: 1rem;
           @include mq{
             flex-wrap: nowrap;
           }
           .service-flex-item{
+            min-width: calc(16 * 10) + px;
             flex-basis: 48%;
             @include mq{
               flex-basis: 25%;

@@ -409,9 +409,10 @@ body{
           .access-img{
             img{
               width: 100%;
-              max-width: calc(16 * 5 * 2);
+              max-width: calc(16 * 5 * 2) + px;
               border-radius: 50%;
               overflow: hidden;
+              vertical-align: bottom;
             }
           }
         }
@@ -463,7 +464,7 @@ body{
         padding: 3rem 0;
         .section-inner{
           img{
-            @include logo-img();
+            @include logo-img;
             display: inline-block;
           }
           p{

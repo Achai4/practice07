@@ -610,9 +610,10 @@ body main .access-info .section-inner .access-flex-container .access-sentence h4
 }
 body main .access-info .section-inner .access-flex-container .access-img img {
   width: 100%;
-  max-width: 160;
+  max-width: 160px;
   border-radius: 50%;
   overflow: hidden;
+  vertical-align: bottom;
 }
 body main .access-info .section-inner .iframe-wrapper {
   aspect-ratio: 3/4;

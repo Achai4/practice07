@@ -251,20 +251,20 @@ h4 {
 }
 
 .large {
-  display: none !important;
+  display: none;
 }
 @media screen and (min-width: 769px) {
   .large {
-    display: initial !important;
+    display: initial;
   }
 }
 
 .small {
-  display: initial !important;
+  display: initial;
 }
 @media screen and (min-width: 769px) {
   .small {
-    display: none !important;
+    display: none;
   }
 }
 

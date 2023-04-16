@@ -39,15 +39,15 @@ h4{
 
 //横幅設定
 .large{
-  display: none !important;
+  display: none;
   @include mq{
-    display: initial !important;
+    display: initial;
   }
 }
 .small{
-  display: initial !important;
+  display: initial;
   @include mq{
-    display: none !important;
+    display: none;
   }
 }
 

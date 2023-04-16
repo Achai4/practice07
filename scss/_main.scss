@@ -42,7 +42,7 @@ section{
   margin-bottom: 1em;
   text-align: center;
   h2{
-    margin-bottom: ( 40 / 1.414 ) - ( 16 / 2 ) + 2 + px;
+    margin-bottom:  calc( 40 / 1.414 ) - calc( 16 * 1.5 / 2 ) + 2 + px;
     letter-spacing: 0.2em;
     position: relative;
     z-index: 100;

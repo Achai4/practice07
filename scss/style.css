@@ -492,6 +492,11 @@ body main .info .info-flex-container .info-flex-item img {
 body main .info .info-flex-container .info-flex-item h2 {
   margin: 1em 0;
 }
+@media screen and (min-width: 769px) {
+  body main .info .info-flex-container .info-flex-item h2 {
+    margin-top: 0;
+  }
+}
 body main .info .info-flex-container .info-flex-item h2 .info-headline {
   font-size: 1em;
   font-weight: 500;

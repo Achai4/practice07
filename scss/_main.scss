@@ -25,6 +25,9 @@ h4{
 }
 .large{
   display: none;
+  @include mq{
+    display: initial;
+  }
 }
 span.nowrap{
   display: inline-block;

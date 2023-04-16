@@ -614,7 +614,7 @@ body main .access-info .section-inner .access-flex-container .access-sentence h4
   margin-bottom: 1rem;
 }
 body main .access-info .section-inner .access-flex-container .access-img img {
-  width: 100%;
+  width: 90vw;
   max-width: 160px;
   border-radius: 50%;
   overflow: hidden;

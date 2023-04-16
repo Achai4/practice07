@@ -1,10 +1,23 @@
+////////// メディアクエリ //////////
+@mixin mq{
+  @media screen and (min-width:769px){
+    @content;
+  }
+}
+
+////////// COLOR //////////
 $pri-color: rgb(102, 153, 255);
 $sec-color: rgb(141, 187, 255);
 $ter-color: #f0f0f0;
 $pri-font-color: rgba(0, 0, 0, 0.9);
 $sec-font-color: rgba(255, 255, 255, 0.9);
+
+////////// VARIABLES //////////
 @mixin logo-img{
   width: 200px;
+  @include mq{
+    width: 250px;
+  }
 }
 
 ////////// 全体 //////////
@@ -23,13 +36,28 @@ h3{
 h4{
   font-weight: 500;
 }
+
+//横幅設定
 .large{
   display: none;
+  @include mq{
+    display: initial;
+  }
 }
+.small{
+  display: initial;
+  @include mq{
+    display: none;
+  }
+}
+
+//改行
 span.nowrap{
   display: inline-block;
   white-space: nowrap;
 }
+
+//セクション基本設定
 section{
   padding: 3rem 0;
 }
@@ -66,6 +94,8 @@ section{
     margin: 1em 0;
   }
 }
+
+//ボタン基本設定
 button{
   padding: 1em 3em;
   border-radius: 10px;
@@ -118,6 +148,30 @@ body{
           }
           &::after{
             top: 20px;
+          }
+        }
+      }
+      nav.large{
+        .gnav-list{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          li{
+            a{
+              display: block;
+              padding: 1em;
+              margin-left: 0.5rem;
+              border-radius: 10px;
+              font-size: 0.8rem;
+              text-align: center;
+              &:hover{
+                background-color: $ter-color;
+                opacity: 0.9;
+              }
+              &::first-line{
+                font-size: 1.2rem;
+              }
+            }
           }
         }
       }

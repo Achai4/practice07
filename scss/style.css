@@ -253,6 +253,20 @@ h4 {
 .large {
   display: none;
 }
+@media screen and (min-width: 769px) {
+  .large {
+    display: initial;
+  }
+}
+
+.small {
+  display: initial;
+}
+@media screen and (min-width: 769px) {
+  .small {
+    display: none;
+  }
+}
 
 span.nowrap {
   display: inline-block;
@@ -329,6 +343,11 @@ body header .header-menu {
 body header .header-menu img {
   width: 200px;
 }
+@media screen and (min-width: 769px) {
+  body header .header-menu img {
+    width: 250px;
+  }
+}
 body header .header-menu .gnav-btn {
   display: block;
   width: 30px;
@@ -351,6 +370,26 @@ body header .header-menu .gnav-btn span::before {
 }
 body header .header-menu .gnav-btn span::after {
   top: 20px;
+}
+body header .header-menu nav.large .gnav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body header .header-menu nav.large .gnav-list li a {
+  display: block;
+  padding: 1em;
+  margin-left: 0.5rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+body header .header-menu nav.large .gnav-list li a:hover {
+  background-color: #f0f0f0;
+  opacity: 0.9;
+}
+body header .header-menu nav.large .gnav-list li a::first-line {
+  font-size: 1.2rem;
 }
 body header nav.small .gnav-content .gnav-hidden {
   display: none;
@@ -579,6 +618,11 @@ body footer.footer-area .contact {
 body footer.footer-area .contact .section-inner img {
   width: 200px;
   display: inline-block;
+}
+@media screen and (min-width: 769px) {
+  body footer.footer-area .contact .section-inner img {
+    width: 250px;
+  }
 }
 body footer.footer-area .contact .section-inner p {
   margin: 1em 0;

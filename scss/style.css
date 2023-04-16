@@ -625,8 +625,6 @@ body main .access-info .section-inner .access-flex-container .access-img img {
   width: 90vw;
   max-width: 240px;
   border-radius: 50%;
-  overflow: hidden;
-  vertical-align: bottom;
 }
 body main .access-info .section-inner .iframe-wrapper {
   aspect-ratio: 3/4;

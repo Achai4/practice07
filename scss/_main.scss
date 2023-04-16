@@ -159,14 +159,14 @@ body{
           li{
             a{
               display: block;
+              min-width: 83px;
               padding: 1em;
               margin-left: 0.5rem;
               border-radius: 10px;
               font-size: 0.8rem;
               text-align: center;
               &:hover{
-                background-color: $ter-color;
-                opacity: 0.9;
+                background-color: rgba(155, 155, 155, 0.4);
               }
               &::first-line{
                 font-size: 1.2rem;

@@ -39,7 +39,7 @@ h4{
 
 //横幅設定
 .large{
-  display: none;
+  display: none !important;
   @include mq{
     display: initial;
   }
@@ -47,7 +47,7 @@ h4{
 .small{
   display: initial;
   @include mq{
-    display: none;
+    display: none !important;
   }
 }
 
@@ -127,7 +127,7 @@ body{
         @include logo-img();
       }
       .gnav-btn{
-        display: block;
+        display: inline-block;
         width: 30px;
         height: 25px;
         position: relative;
@@ -170,6 +170,7 @@ body{
               }
               &::first-line{
                 font-size: 1.2rem;
+                letter-spacing: 0.2em;
               }
             }
           }

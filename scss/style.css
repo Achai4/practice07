@@ -251,7 +251,7 @@ h4 {
 }
 
 .large {
-  display: none;
+  display: none !important;
 }
 @media screen and (min-width: 769px) {
   .large {
@@ -264,7 +264,7 @@ h4 {
 }
 @media screen and (min-width: 769px) {
   .small {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -349,7 +349,7 @@ body header .header-menu img {
   }
 }
 body header .header-menu .gnav-btn {
-  display: block;
+  display: inline-block;
   width: 30px;
   height: 25px;
   position: relative;
@@ -390,6 +390,7 @@ body header .header-menu nav.large .gnav-list li a:hover {
 }
 body header .header-menu nav.large .gnav-list li a::first-line {
   font-size: 1.2rem;
+  letter-spacing: 0.2em;
 }
 body header nav.small .gnav-content .gnav-hidden {
   display: none;

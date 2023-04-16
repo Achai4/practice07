@@ -64,6 +64,7 @@ section{
 .section-inner{
   display: block;
   width: 90%;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .section-headline{
@@ -268,6 +269,11 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        @include mq{
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+        }
         .info-flex-item{
           color: $sec-font-color;
           text-align: center;
@@ -289,10 +295,15 @@ body{
       .section-inner{
         .service-flex-container{
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
           justify-content: center;
+          flex-wrap: wrap;
           .service-flex-item{
             margin-bottom: 1em;
+            flex-basis: 48%;
+            @include mq{
+              flex-basis: 24%;
+            }
           }
           .service-content-box{
             padding: 1em;
@@ -318,6 +329,15 @@ body{
           display: flex;
           flex-direction: column;
           justify-content: center;
+          @include mq{
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .plan-flex-item{
+            @include mq{
+              flex-basis: 32%;
+            }
+          }
           .plan-content-box{
             margin-bottom: 2rem;
             background-color: #fff;
@@ -374,6 +394,11 @@ body{
           flex-direction: column;
           margin-bottom: 2rem;
           justify-content: center;
+          @include mq{
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+          }
           .access-sentence{
             margin: 1em;
             h4{
@@ -383,6 +408,7 @@ body{
           .access-img{
             img{
               width: 100%;
+              max-width: calc(16 * 5 * 2);
               border-radius: 50%;
               overflow: hidden;
             }
@@ -394,6 +420,9 @@ body{
           border-radius: 10px;
           background-color: $ter-color;
           overflow: hidden;
+          @include mq{
+            aspect-ratio: 16/9;
+          }
           iframe{
             width: 100%;
             height: 100%;
@@ -445,6 +474,11 @@ body{
             a{
               font-size: 1em;
               font-weight: 500;
+              &[href^="tel:"]{
+                @include mq{
+                  pointer-events: none;
+                }
+              }
             }
           }
         }

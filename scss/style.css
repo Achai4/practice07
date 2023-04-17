@@ -410,6 +410,7 @@ body header nav.small .gnav-content .gnav-black {
 body header nav.small .gnav-content .gnav-list {
   display: block;
   width: 70vw;
+  max-width: 300px;
   height: 100vh;
   padding-top: 70px;
   background-color: #000;

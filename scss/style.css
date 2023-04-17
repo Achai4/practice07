@@ -553,12 +553,12 @@ body main .plan-list .section-inner .plan-flex-container {
   body main .plan-list .section-inner .plan-flex-container {
     flex-direction: row;
     justify-content: space-between;
-    gap: 2.3333333333%;
+    gap: 1.3333333333%;
   }
 }
 @media screen and (min-width: 769px) {
   body main .plan-list .section-inner .plan-flex-container .plan-flex-item {
-    flex-basis: 31%;
+    flex-basis: 32%;
   }
 }
 body main .plan-list .section-inner .plan-flex-container .plan-content-box {

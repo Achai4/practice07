@@ -134,6 +134,7 @@ body{
         z-index: 300;
         span{
           &, &::before, &::after{
+          content: "";
           display: block;
           width: 30px;
           height: 5px;

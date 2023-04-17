@@ -354,6 +354,7 @@ body header .header-menu .gnav-btn {
   z-index: 300;
 }
 body header .header-menu .gnav-btn span, body header .header-menu .gnav-btn span::before, body header .header-menu .gnav-btn span::after {
+  content: "";
   display: block;
   width: 30px;
   height: 5px;

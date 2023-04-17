@@ -515,3 +515,16 @@ body{
     } // footer-area
   } // footer
 } // body
+//横幅設定
+.large{
+  display: none;
+  @include mq{
+    display: initial;
+  }
+}
+.small{
+  @include mq{
+    display: none;
+    content: none;
+  }
+}

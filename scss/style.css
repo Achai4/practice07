@@ -710,4 +710,20 @@ body footer.footer-area .copyright {
 body footer.footer-area .copyright small {
   font-size: 0.6rem;
   font-weight: 300;
+}
+
+.large {
+  display: none;
+}
+@media screen and (min-width: 769px) {
+  .large {
+    display: initial;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .small {
+    display: none;
+    content: none;
+  }
 }/*# sourceMappingURL=style.css.map */

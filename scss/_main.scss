@@ -270,7 +270,7 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 1rem;
+        gap: 4%;
         @include mq{
           flex-direction: row;
           justify-content: space-between;
@@ -279,7 +279,7 @@ body{
         .info-flex-item{
           color: $sec-font-color;
           text-align: center;
-          flex-basis: 50%;
+          flex-basis: 48%;
           img{
             width: 100%;
           }
@@ -303,7 +303,7 @@ body{
           flex-direction: column;
           justify-content: center;
           flex-wrap: wrap;
-          gap: 1rem;
+          gap: (8/3) * 1%;
           @include mq{
             flex-direction: row;
             justify-content: space-between;
@@ -312,7 +312,7 @@ body{
           .service-flex-item{
             max-width: calc(16 * 30) + px;
             @include mq{
-              flex-basis: 25%;
+              flex-basis: 23%;
             }
           }
           .service-content-box{
@@ -343,11 +343,11 @@ body{
           @include mq{
             flex-direction: row;
             justify-content: space-between;
-            gap: 1.5rem;
+            gap: 10 / 3 * 1%;
           }
           .plan-flex-item{
             @include mq{
-              flex-basis: calc(100 / 3) + "%";
+              flex-basis: 30%;
             }
           }
           .plan-content-box{

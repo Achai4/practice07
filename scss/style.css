@@ -474,7 +474,7 @@ body main .info .info-flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1rem;
+  gap: 4%;
 }
 @media screen and (min-width: 769px) {
   body main .info .info-flex-container {
@@ -486,7 +486,7 @@ body main .info .info-flex-container {
 body main .info .info-flex-container .info-flex-item {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-  flex-basis: 50%;
+  flex-basis: 48%;
 }
 body main .info .info-flex-container .info-flex-item img {
   width: 100%;
@@ -508,7 +508,7 @@ body main .service-list .section-inner .service-flex-container {
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2.6666666667%;
 }
 @media screen and (min-width: 769px) {
   body main .service-list .section-inner .service-flex-container {
@@ -522,7 +522,7 @@ body main .service-list .section-inner .service-flex-container .service-flex-ite
 }
 @media screen and (min-width: 769px) {
   body main .service-list .section-inner .service-flex-container .service-flex-item {
-    flex-basis: 25%;
+    flex-basis: 23%;
   }
 }
 body main .service-list .section-inner .service-flex-container .service-content-box {
@@ -552,12 +552,12 @@ body main .plan-list .section-inner .plan-flex-container {
   body main .plan-list .section-inner .plan-flex-container {
     flex-direction: row;
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 3.3333333333%;
   }
 }
 @media screen and (min-width: 769px) {
   body main .plan-list .section-inner .plan-flex-container .plan-flex-item {
-    flex-basis: "33.3333333333%";
+    flex-basis: 30%;
   }
 }
 body main .plan-list .section-inner .plan-flex-container .plan-content-box {

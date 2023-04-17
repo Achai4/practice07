@@ -47,6 +47,7 @@ h4{
 .small{
   @include mq{
     display: none;
+    content: none;
   }
 }
 
@@ -138,6 +139,7 @@ body{
           display: block;
           width: 30px;
           height: 5px;
+          border-radius: 3px;
           background-color: $pri-font-color;
           position: absolute;
           top: 0;

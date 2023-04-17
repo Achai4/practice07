@@ -520,6 +520,7 @@ body main .service-list .section-inner .service-flex-container {
 }
 body main .service-list .section-inner .service-flex-container .service-flex-item {
   max-width: 480px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 769px) {
   body main .service-list .section-inner .service-flex-container .service-flex-item {

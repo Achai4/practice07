@@ -45,13 +45,12 @@ h4{
   }
 }
 .small{
-  display: initial;
   @include mq{
     display: none;
   }
 }
 
-//改行
+//改行制限
 span.nowrap{
   display: inline-block;
   white-space: nowrap;
@@ -301,6 +300,7 @@ body{
         .service-flex-container{
           display: flex;
           flex-direction: column;
+          justify-content: center;
           flex-wrap: wrap;
           gap: 1em;
           @include mq{

@@ -506,6 +506,7 @@ body main .info .info-flex-container .info-flex-item h2 .info-headline {
 body main .service-list .section-inner .service-flex-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 1em;
 }

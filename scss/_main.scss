@@ -301,20 +301,19 @@ body{
         .service-flex-container{
           display: flex;
           flex-direction: column;
-          justify-content: center;
           flex-wrap: wrap;
           gap: 1em;
           @include mq{
             flex-direction: row;
             justify-content: space-between;
             flex-wrap: nowrap;
-            gap: 8 / 3 * 1%;
+            gap: 4 / 3 * 1%;
           }
           .service-flex-item{
             max-width: calc(16 * 30) + px;
             margin: 0 auto;
             @include mq{
-              flex-basis: 23%;
+              flex-basis: 24%;
             }
           }
           .service-content-box{
@@ -345,11 +344,11 @@ body{
           @include mq{
             flex-direction: row;
             justify-content: space-between;
-            gap: 10 / 3 * 1%;
+            gap: 7 / 3 * 1%;
           }
           .plan-flex-item{
             @include mq{
-              flex-basis: 30%;
+              flex-basis: 31%;
             }
           }
           .plan-content-box{

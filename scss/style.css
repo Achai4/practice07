@@ -387,7 +387,7 @@ body header .header-menu nav.large .gnav-list li a {
   text-align: center;
 }
 body header .header-menu nav.large .gnav-list li a:hover {
-  background-color: rgba(155, 155, 155, 0.4);
+  background-color: rgba(100, 100, 100, 0.2);
 }
 body header .header-menu nav.large .gnav-list li a::first-line {
   font-size: 1.2rem;
@@ -710,20 +710,4 @@ body footer.footer-area .copyright {
 body footer.footer-area .copyright small {
   font-size: 0.6rem;
   font-weight: 300;
-}
-
-.large {
-  display: none;
-}
-@media screen and (min-width: 769px) {
-  .large {
-    display: initial;
-  }
-}
-
-@media screen and (min-width: 769px) {
-  .small {
-    display: none;
-    content: none;
-  }
 }/*# sourceMappingURL=style.css.map */

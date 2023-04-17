@@ -253,7 +253,7 @@ h4 {
 .large {
   display: none;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   .large {
     display: initial;
   }
@@ -262,7 +262,7 @@ h4 {
 .small {
   display: initial;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   .small {
     display: none;
   }
@@ -344,7 +344,7 @@ body header .header-menu {
 body header .header-menu img {
   width: 200px;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   body header .header-menu img {
     width: 250px;
   }
@@ -476,7 +476,7 @@ body main .info .info-flex-container {
   justify-content: center;
   gap: 1rem;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   body main .info .info-flex-container {
     flex-direction: row;
     justify-content: space-between;
@@ -494,7 +494,7 @@ body main .info .info-flex-container .info-flex-item img {
 body main .info .info-flex-container .info-flex-item h2 {
   margin: 1em 0;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   body main .info .info-flex-container .info-flex-item h2 {
     margin-top: 0;
   }
@@ -510,7 +510,7 @@ body main .service-list .section-inner .service-flex-container {
   flex-wrap: wrap;
   gap: 1rem;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   body main .service-list .section-inner .service-flex-container {
     flex-direction: row;
     justify-content: space-between;
@@ -520,7 +520,7 @@ body main .service-list .section-inner .service-flex-container {
 body main .service-list .section-inner .service-flex-container .service-flex-item {
   max-width: 480px;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   body main .service-list .section-inner .service-flex-container .service-flex-item {
     flex-basis: 25%;
   }
@@ -548,14 +548,14 @@ body main .plan-list .section-inner .plan-flex-container {
   justify-content: center;
   gap: 2rem;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   body main .plan-list .section-inner .plan-flex-container {
     flex-direction: row;
     justify-content: space-between;
     gap: 1.5rem;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   body main .plan-list .section-inner .plan-flex-container .plan-flex-item {
     flex-basis: "33.3333333333%";
   }
@@ -609,7 +609,7 @@ body main .access-info .section-inner .access-flex-container {
   margin-bottom: 2rem;
   justify-content: center;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   body main .access-info .section-inner .access-flex-container {
     flex-direction: row;
     justify-content: space-around;
@@ -628,7 +628,7 @@ body main .access-info .section-inner .access-flex-container .access-img img {
   margin: 1em auto 0;
   border-radius: 50%;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   body main .access-info .section-inner .access-flex-container .access-img img {
     max-width: 240px;
     margin-top: 0;
@@ -641,7 +641,7 @@ body main .access-info .section-inner .iframe-wrapper {
   background-color: #f0f0f0;
   overflow: hidden;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   body main .access-info .section-inner .iframe-wrapper {
     aspect-ratio: 16/9;
   }
@@ -680,7 +680,7 @@ body footer.footer-area .contact .section-inner img {
   width: 200px;
   display: inline-block;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   body footer.footer-area .contact .section-inner img {
     width: 250px;
   }
@@ -696,7 +696,7 @@ body footer.footer-area .contact .section-inner address a {
   font-size: 1em;
   font-weight: 500;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   body footer.footer-area .contact .section-inner address a[href^="tel:"] {
     pointer-events: none;
   }

@@ -47,7 +47,6 @@ h4{
 .small{
   @include mq{
     display: none;
-    content: none;
   }
 }
 
